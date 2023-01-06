@@ -1,0 +1,25 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Roboto:wght@400;500&display=swap");
+
+/*=============== VARIABLES CSS ===============*/
+:root{
+    --blue: rgb(0, 191, 255);
+    --light: #EEEEEE;
+    --dark: #212121;
+    --light_dark: #303030;
+    --red: #f31010ea;
+    --swiper-navigation-color: #f31010ea;
+    --swiper-pagination-color: #f31010ea;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+

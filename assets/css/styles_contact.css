@@ -1,0 +1,148 @@
+@import "style_root.css";
+
+/* ------------------------ Mobile Screen --------------------------*/
+
+.contact{
+    background-color: var(--dark);
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.title-contact{
+    color: white;
+    font-size: 28px;
+    font-weight: 900;
+    border-bottom: 3px outset white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+
+}
+
+.contact-wrapper{
+    width: 400px;
+    margin: 0 auto;
+    height: 400px;
+    display: flex;
+    border-radius: 50px;
+    background-color: white;
+    border: 6px solid black;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.contact-right{
+    width: 100%;
+}
+
+.contact-left{
+    width: 100%;
+}
+
+.photo-wrapper{
+    padding: 20px 0;
+    text-align: center;
+}
+
+.info{
+    padding-left: 5%;
+}
+
+.info-key {
+    padding-left: 5px;
+}
+
+.info-val {
+    padding-left: 5px;
+    color: gray;
+}
+
+.photo{
+    width: 160px;
+    border-radius: 20px;
+    border: 4px solid black;
+}
+
+.info-single {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 55px;
+}
+
+.icon {
+    font-size: 32px;
+    color: var(--red);
+}
+
+
+.right-upper{
+    height: 300px;
+}
+
+.contact-link{
+    height: 20%;
+    width: 75%;
+    display: flex;
+    justify-content:center;
+    margin: 20px auto;
+
+}
+
+
+.info-link {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    display:flex;
+    margin: auto;
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.info-link:hover{
+    color: white;
+    background-color: var(--red);
+    border-color: var(--red);
+}
+
+
+.right-lower{
+    height: 50px;
+    display: flex;
+    justify-content:center;
+    margin: 20px auto;
+}
+
+.like-button {
+    margin-top: -20px;
+    display: flex;
+    height: 40px;
+    place-items: center;
+    text-decoration: none;
+    background-color: var(--red);
+    border: 2px solid var(--red);
+    border-radius: 10px;
+    color: white;
+    padding:0 5px;
+    font-size: 16px;
+}
+
+.like-button:hover {
+    background-color: rgba(50,205,50, 1);
+    border-color: rgba(50,205,50, 1);
+}
+
+
+
+
+
+

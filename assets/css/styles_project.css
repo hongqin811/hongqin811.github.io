@@ -1,0 +1,87 @@
+@import "style_root.css";
+
+
+/* ------------------------ Mobile Screen --------------------------*/
+.title-project{
+    color: var(--red);
+    font-size: 28px;
+    font-weight: 900;
+    border-bottom: 3px outset var(--red);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    padding-top: 50px;
+
+}
+
+.project {
+    height: 100%;
+    margin: 50px 0;
+}
+
+
+.card-project {
+    width: 18rem;
+    min-height: 300px;
+    margin:40px auto;
+}
+
+.card-img {
+    width: 286px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+
+.card-title {
+    font-size: 24px;
+    font-weight:600;
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Roboto', sans-serif;;
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: 24px;
+    height: 125px;
+}
+
+.project-body {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.viewmore{
+    padding-bottom: 50px;
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+    color: var(--red);
+}
+
+.skill-project {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.swiper-button-prev::before{
+    content: "";
+}
+
+
+/* ------------------------ Tablet Screen --------------------------*/
+
+@media only screen and (min-width: 768px){
+
+    .project{
+        margin-bottom: 100px;
+    }
+
+}
+
+
+

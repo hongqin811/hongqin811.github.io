@@ -1,0 +1,205 @@
+@import "style_root.css";
+
+/* ------------------------ Mobile Screen --------------------------*/
+
+.education{
+    background-color: var(--light_dark);
+    color: var(--light);
+    height: 100%;
+    text-align: center;
+    display:block;
+    padding-top: 40px;
+}
+
+.title-edu{
+    color: var(--light);
+    font-size: 28px;
+    font-weight: 900;
+    border-bottom: 3px outset white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+
+}
+
+.education-wrapper{
+
+    padding: 30px 10%;
+    display: grid;
+    overflow: hidden;
+    place-items: center;
+}
+
+
+
+.cards-edu {
+    display: flex;
+    padding: 0;
+    width: 100%;
+}
+
+.card-edu {
+    border-radius: 20px;
+    background-color: var(--light);
+    width: 90%;
+    height: auto;
+    box-shadow: 5px 5px 5px rgb(0, 191, 255);
+    transition: 0.2s;
+    filter:grayscale(80%);
+    display: flex;
+    justify-content: center;
+}
+
+.card-edu.bu {
+    box-shadow: 5px 5px 5px var(--red);
+}
+
+.card-edu h2{
+    justify-content: center;
+    color: rgb(0, 191, 255);
+    writing-mode: vertical-rl;
+    text-orientation: use-glyph-orientation;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;;
+    padding-top: 10px;
+    margin-left: -2.3rem;
+    margin-right: 2.3rem;
+}
+
+
+.text-edu{
+    display: block;
+    width: 50%;
+    height: 100%;
+}
+
+.text-edu h3{
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: var(--blue);
+    padding-bottom: 30px;
+}
+
+.text-edu p{
+    font-family: 'Lora', serif;
+    line-height: 18px;
+    padding-bottom: 10px;
+}
+
+.text-edu.bu h3{
+    color:var(--red);
+}
+
+.bu h2{
+    color:var(--red);
+}
+
+
+
+.education-pic {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.card-edu:not(:first-child){
+    margin-left: -230px;
+}
+
+.card-edu:nth-child(4){
+
+    filter:grayscale(0%);
+}
+
+
+
+.card-edu:focus {
+    transform: translateY(-1.5rem);
+    z-index: 99;
+    filter:grayscale(0%);
+    
+}
+
+.card-edu:focus ~.card-edu{
+    transform: translateX(4rem);
+    filter:grayscale(80%);
+}
+
+.transfer {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 30px;
+}
+
+.name-u {
+    display: none;
+}
+
+/* ------------------------ PC Screen --------------------------*/
+
+@media only screen and (min-width: 1024px){
+
+    .title-edu{
+        padding-top: 80px;
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+
+    .education{
+        height: 100%;
+        margin: 0;
+        padding: 40px 0; 
+        margin-top: 60px;
+    }
+
+    .education-wrapper{
+        display: flex;
+        margin: 0;
+        padding: 0;   
+    }
+
+    .cards-edu{
+        height: 400px;
+        padding: 2% 3%;
+    }
+
+
+    .transfer{
+        display:none;
+    }
+
+    .text-edu p{
+        line-height: 20px;
+    }
+
+    .text-edu p{
+        line-height: 20px;
+    }
+
+    .card-edu:not(:first-child){
+        margin-left: -300px;
+    }
+
+    .name-u {
+        padding-top: 20px;
+        display: flex;
+        padding-bottom: 50px;
+    }
+
+    .name-u div{
+        width: 50%;
+    }
+
+    .text-edu p{
+        font-family: 'Lora', serif;
+        line-height: 20px;
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+
+
+}

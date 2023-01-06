@@ -1,0 +1,212 @@
+@import "style_root.css";
+
+/* ------------------------ Mobile Screen --------------------------*/
+
+.experiences {
+    background-color: var(--dark);
+    color: var(--light);
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.title-exp{
+    color: var(--light);
+    font-size: 28px;
+    font-weight: 900;
+    border-bottom: 3px outset white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+
+
+.experiences-wrapper{
+    height: auto;
+    width: 80%;
+    margin: auto;
+}
+
+#exp-img {
+    width:10%;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.5s;
+    filter: grayscale(1);
+    z-index: 1;
+}
+
+#exp-img:hover{
+    width: 300px;
+    filter: grayscale(0);
+    z-index: 2;
+    transition: 0.8s;
+}
+
+
+
+.exp-body {
+    display:flex;
+    margin-top: 50px;
+    padding-bottom: 80px;
+    width: 100%;
+    height: 230px;
+}
+
+.exp-buttons-wrapper {
+    display: block;
+    width: 20%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.exp-button {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 25%;
+    place-items: center;
+    justify-content: center;
+    border-color: var(--red);
+    color: var(--red);
+    background-color: var(--light);
+
+    font-family: 'Roboto', sans-serif;;
+    font-size: 2.5vw;
+    font-weight: 500;
+
+    border-radius: 10px;
+}
+
+.exp-button-click {
+    background-color: var(--red);
+    color: white;
+}
+
+.responsiblity{
+    color:red;
+    font-size: 28px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#exp-text-wrapper{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 80%;
+    height: 300px;
+    overflow: hidden;
+    z-index: 1;
+    
+}
+
+#exp-text {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+/* ------------------------ Tablets Screen --------------------------*/
+
+@media only screen and (min-width: 768px){
+    .experiences-wrapper{
+        height: auto;
+        width: 60%;
+        margin: auto;
+    }
+
+    #exp-img:hover{
+        width: 400px;
+    }
+
+    .exp-button {
+        font-size: 20px;
+    }
+
+    .exp-buttons-wrapper {
+        width: 25%;
+    }
+
+    #exp-text-wrapper{
+        line-height: 30px;
+    }
+
+    #exp-text {
+        font-size: 18px;
+    }
+    
+}
+
+/* ------------------------ PC Screen --------------------------*/
+
+@media only screen and (min-width: 1024px){
+   
+    .experiences {
+        padding-top: 120px;
+        padding-bottom: 250px;
+    }
+    .title-exp{
+        margin-bottom: 50px;
+    }
+
+    .experiences-wrapper{
+        height: auto;
+        width: 60%;
+        margin: auto;
+    }
+
+    #exp-img:hover{
+        width: 500px;
+    }
+
+    .exp-button {
+        font-size: 20px;
+    }
+
+    .exp-buttons-wrapper {
+        width: 20%;
+        margin-right: -0.25vw;
+    }
+    #exp-text-wrapper{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 34%;
+        height: 300px;
+        overflow: hidden;
+        z-index: 1;
+    }
+    
+
+    #exp-text{
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    #exp-img {
+        width:40%;
+        height: 300px;
+        filter: grayscale(0)
+    }
+    
+    #exp-img:hover{
+        width: 40%;
+        transform: scale(1.2);
+    }
+    
+    .responsiblity{
+
+        text-align: left;
+    }
+    
+}
+
+@media only screen and (min-width: 1440px){
+
+    #exp-text{
+        font-size: 20px;
+        line-height: 25px;
+    }
+}

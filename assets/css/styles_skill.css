@@ -1,0 +1,137 @@
+@import "style_root.css";
+
+/* ------------------------ Mobile Screen --------------------------*/
+
+
+.title-skills{
+    color: var(--red);
+    font-size: 28px;
+    font-weight: 900;
+    border-bottom: 3px outset var(--red);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+
+}
+
+.skills{
+    width: 90%;
+    margin: 50px auto;
+    margin-bottom: 80px;
+}
+
+
+.body-cate,
+.skill-wrapper,
+.skill-img-wrapper
+{
+    display:grid;
+}
+
+.skill-category{
+    padding-top: 40px;
+    background-color: rgba(211,211,211, 0.15);
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 50px;
+    padding-bottom: 40px;
+}
+
+.title-cate{
+    text-align: center;
+    color: var(--dark);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.body-cate{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem 2rem;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.skill-wrapper{
+    justify-self: center;
+    text-align: center;
+    padding-top: 30px
+}
+
+.skill-img-wrapper
+{    
+    width: 90px;
+    height: 100px;
+    background-color: white;
+    place-items: center;
+    margin-bottom: 1rem;
+    border-radius: 3rem;
+}
+
+.skill-img{
+    width: 50px;
+    transition: 1s;
+}
+
+.skill-img:hover{
+    transform: rotate(1turn);
+}
+
+
+
+@media only screen and (min-width: 768px){
+    .skill-category{
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 1080px){
+
+    .skills{
+        margin-bottom: 120px;
+        margin-top: 80px;
+    }
+
+    .title-skills{
+        margin-bottom: 40px;
+    }
+
+
+    .category-wrapper{
+        display: flex;
+    }
+
+    .skill-category{
+        width: 30%;
+    }
+
+    .skill-img-wrapper
+    {    
+        width: 65px;
+        height: 80px;
+
+    }
+
+    .skill-img{
+        width: 40px;
+        transition: 1s;
+    }
+    
+}
+
+@media only screen and (min-width: 1440px){
+    .skill-img-wrapper
+    {    
+        width: 90px;
+        height: 100px;
+
+    }
+
+    .skill-img{
+        width: 50px;
+    }
+
+
+}
+

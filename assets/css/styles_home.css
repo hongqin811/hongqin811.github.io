@@ -1,0 +1,89 @@
+@import "style_root.css";
+
+
+/* ------------------------ Mobile Screen --------------------------*/
+.home-wrapper{
+    margin: 0 auto;
+    display: block;
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+    padding-top: 120px;
+}
+
+.about-me div{
+    width: 100%;
+    line-height: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    color: var(--red);
+    font-family: 'Roboto', sans-serif;;
+}
+
+.me {
+    margin-left: 2px;
+    padding: 0 3px;
+    color: white;
+    background-color: var(--red);
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about-me p{
+
+    line-height: 30px;
+    font-weight: 500;
+    text-justify: auto;
+    text-align: left;
+    margin: 0 30px;
+
+
+}
+
+.photo-me{
+    margin-top: 40px;
+    text-align: center;
+    width: 65%;
+    border: 5px solid var(--red);
+    
+}
+
+
+.secret{
+    margin-top: 20px;
+}
+
+
+/* ------------------------ Tablet Screen --------------------------*/
+@media only screen and (min-width: 768px){
+    .home-wrapper{
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-me{
+        width: 480px;
+        margin-left: 100px;
+        padding-right: 0px;
+        padding-top: 40px;
+        margin: 0;
+
+    }
+
+    .photo-me{
+        margin-top: 125px;
+        text-align: left;
+        width: 75%;
+        border: 5px solid var(--red);
+    }
+
+@media only screen and (min-width: 912px){
+    .photo-me{
+        margin-top: 40px;
+    }
+
+}

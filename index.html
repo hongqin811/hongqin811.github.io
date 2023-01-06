@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--------------------------- FAVICON ------------------------------->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+
+        <!--------------------------- CSS ------------------------------->
+        
+        <link rel="stylesheet" href="assets/css/styles_root.css">
+        <link rel="stylesheet" href="assets/css/styles_nav.css">
+        <link rel="stylesheet" href="assets/css/styles_home.css">
+        <link rel="stylesheet" href="assets/css/styles_education.css">
+        <link rel="stylesheet" href="assets/css/styles_project.css">
+        <link rel="stylesheet" href="assets/css/styles_exp.css">
+        <link rel="stylesheet" href="assets/css/styles_skill.css">
+        <link rel="stylesheet" href="assets/css/styles_contact.css">
+        <link rel="stylesheet" href="assets/css/styles_footer.css">
+
+
+
+        <!--------------------------- REMIXICONS ------------------------------->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!---------------------------  Swiper  ------------------------------->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+        <!---------------------------  Boostraps  ------------------------------->
+
+        <title>Hongqin's Website</title>
+    </head>
+
+    <!--================================= BODY =============================================-->
+    <body>
+
+        <!--------------------------- NAV ------------------------------->
+        <header>
+            <nav>
+                <div class="nav_container">
+                    <h1 id="hongqin">Hongqin</h1>
+                    <div class="menu">
+                        <a href="#home">Home</a>
+                        <a href="#education">Educations</a>
+                        <a href="#project">Project</a>
+                        <a href="#experiences">Experiences</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+        
+                    <button class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </nav>
+
+            <div class="mobile-menu">
+                <a href="#home" onclick="closeMenu()">Home</a>
+                <a href="#education" onclick="closeMenu()">Educations</a>
+                <a href="#project" onclick="closeMenu()">Project</a>
+                <a href="#experiences" onclick="closeMenu()">Experiences</a>
+                <a href="#skills" onclick="closeMenu()">Skills</a>
+                <a href="#contact" onclick="closeMenu()">Contact</a>
+            </div>
+        </header>
+        <!--------------------------- Home ------------------------------->
+        <section class="home-wrapper" id="home">
+
+            <article class="about-me">
+                <div>
+                    <h2 class="about">ABOUT</h2> <h2 class="me">ME</h2>
+                </div>
+                <p>
+                    Hi! I'm Hong. I have recently graduated from Boston University with a Bachelor's degree 
+                    in Computer Science. I consider myself as a fast learner, I am passionate about exploring 
+                    programming languages, and I am glad to learn everything I need to know to become successful 
+                    in Technology Development field. I am looking forward to getting involved with my interests, 
+                    such as Software Engineering, Web Development, Data Sciences, and Database Engineering.
+                </p>
+                <div class="secret">
+                    <h2 class="about">LITTLE</h2> <h2 class="me">SECRET</h2>
+                </div>
+                <p>
+                    I am a Dog Person who spends most of my leisure watching dog videos, 
+                    and studying cinema. Some of my favorite hobbies are doing workouts, playing badminton, 
+                    reading novel... etc
+                </p>
+            </article>
+
+            <div>
+                <img src="assets/img/me.png"  class="photo-me">
+            </div>
+        </section>
+
+        <!--------------------------- Education ------------------------------->
+        <section class="education" id="education">
+
+            <h2 class="title-edu">EDUCATION</h2>
+
+
+            <div class="education-wrapper">
+
+                <div class="cards-edu">
+                    <button class="card-edu">
+                        <h2>UMass Boston</h2>
+                        <div class="text-edu">
+                            <h3>2018 ~ 2020</h3>
+                            <p>
+                                Pursued a degree in Bachelor of Science in Computer Science.
+                            </p>
+                            <p>
+                                Enlarged my friend zone and enhanced my social skills.
+                            </p>
+                        </div>
+                    <button class="card-edu">
+                        <img src="assets/img/umb3.jpg" class="education-pic" width="300px">
+                    </button>
+                    <button class="card-edu">
+                        <img src="assets/img/umb2.jpg" class="education-pic">
+                    </button>
+    
+                    <button class="card-edu">
+                        <img src="assets/img/umb1.png" class="education-pic">
+                    </button>
+                </div>
+    
+    
+                <div class="transfer">
+                    <h3>TRANSFER</h3><h2><i class="ri-arrow-down-line"></i></h2>
+                </div>
+    
+    
+                <div class="cards-edu">
+                    <button class="card-edu bu">
+                        <h2>Boston University</h2>
+                        <div class="text-edu bu">
+                            <h3>2020 ~ 2022</h3>
+                            <p>
+                                Graduated with a degree in Bachelor of Arts in Computer Science.
+                            </p>
+                            <p>
+                                Learned a deeper understanding about computer science and applied on
+                                different technology fields.
+                            </p>
+                        </div>
+                    <button class="card-edu bu">
+                        <img src="assets/img/bu3.jpg" class="education-pic" width="300px">
+                    </button>
+                    <button class="card-edu bu">
+                        <img src="assets/img/bu2.jpg" class="education-pic">
+                    </button>
+    
+                    <button class="card-edu bu">
+                        <img src="assets/img/bu1.png" class="education-pic">
+                    </button>
+                </div>
+            </div>
+
+            <div class="name-u">
+                <div>
+                    <img src="assets/img/umb.png"  class="umb" width="200px">
+                </div>
+                <div>
+                    <img src="assets/img/bu.png"  class="bu" width="200px">
+                </div>
+            </div>
+            
+        </section>
+
+        <!--------------------------- Projects ------------------------------->
+
+        <section id="project" class="project">
+            <h2 class="title-project">PROJECTS</h2>
+            <!-- Slider main container -->
+            <div class="swiper project-wrapper">
+                <div class="swiper-wrapper">
+
+                <!-- Photo Sharing -->
+                    <div class="swiper-slide slide-wrapper">
+                        <div class="card-project">
+                            <img class="card-img" src="assets/img/photosharing.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">Photo Sharing</h5>
+                                <p class="card-text">
+                                    A web social platform which allows users to make friends, to
+                                    upload pictures, and to leave like and comment on the pictures that they like.
+                                </p>
+                                <p class="skill-project"> - Python, Flask, MySQL, HTML</p>
+                                <a href="https://github.com/hongqin811/Photo_Sharing" class="viewmore""><i class="ri-github-fill"></i>View More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- To-do-List -->
+                    <div class="swiper-slide">
+                        <div class="card-project">
+                            <img class="card-img" src="assets/img/todolist.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">To Do List</h5>
+                                <p class="card-text">
+                                    A digital notebook for users to write down notes, to
+                                    track the working statutes for ongoing projects or works, and to arrange daily basis.
+                                </p>
+                                <p class="skill-project"> - Python, Django, SQLite, HTML/CSS</p>
+                                <a href="https://github.com/hongqin811/ToDoList" class="viewmore""><i class="ri-github-fill"></i>View More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- My Website -->
+                    <div class="swiper-slide">
+                        <div class="card-project">
+                            <img class="card-img" src="assets/img/personal.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">Persnoal Website</h5>
+                                <p class="card-text">
+                                    A website that shows what typ of person am I, what am I capable of doing, and gives extra imformation to let people understand 
+                                    my background in advance.
+                                </p>
+                                <p class="skill-project"> - Advanced HTML/CSS, JavaScript</p>
+                                <a href="https://github.com/hongqin811/Personal_Website" class="viewmore""><i class="ri-github-fill"></i>View More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Movie Searching -->
+                    <div class="swiper-slide">
+                        <div class="card-project">
+                            <img class="card-img" src="assets/img/moviesearch.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">Movie Searching</h5>
+                                <p class="card-text">
+                                    A web application which allows users to submit a song, then give response with a list of movies
+                                    related to the category of the submitted song.
+                                </p>
+                                <p class="skill-project"> - Python, Flask, HTML/CSS, Git, API</p>
+                                <a href="https://github.com/ahykim/CS411_Project" class="viewmore""><i class="ri-github-fill"></i>View More</a>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination pag"></div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev">
+            </div>
+            <div class="swiper-button-next">
+            </div>
+            
+            </div>
+        </section>
+
+        <section id="experiences" class="experiences">
+            <div class="experiences-wrapper">
+                <h2 class="title-exp">
+                    EXPERIENCES
+                </h2>
+                <div class="exp-body">
+                    <div class="exp-buttons-wrapper">
+                        <button class="exp-button exp-button-click" onclick="changeImg('assets/img/cstf.png', 'Tutor and consolidate students\' understanding of C programming.<br><br>Discover logic flaws quickly through the experience of assignment grading.')">
+                            CS Teaching Fellow</button>
+                        <button class="exp-button" onclick="changeImg('assets/img/qari.png', 'Initiated various activities to help mentees develop social and leadership skills.<br><br>Tutored middle school students with their academic work.')">
+                            Acadamic Tutor</button>
+                        <button class="exp-button" onclick="changeImg('assets/img/uniqlo.png', 'Assisted customers with solving problems to meet their needs and satisfaction.<br><br>Engaged customers and promoted specific merchandise.')">
+                            Retail Sales</button>
+                        <button class="exp-button" onclick="changeImg('assets/img/chinapearl.png', 'Communicate frequently with guests and restaurant staff to ensure optimal guest satisfaction<br><br>Presented menus, answered questions, and recorded in-person as well as phone takeout orders')">
+                            Waiter</button>
+                    </div>
+                    <div id="exp-text-wrapper">
+                        <h3 class="responsiblity">My Resonsibility</h3>
+                        <p id="exp-text">Tutor and consolidate students' understanding of C programming. <br><br>Developed the ability to discover logic flaws quickly through the experience of assignment grading.</p>
+                    </div>
+                    <img id="exp-img" src="assets/img/cstf.png">
+                </div>
+            </div>
+        </section>
+
+
+        <section class="skills" id="skills">
+            <h2 class="title-skills">SKILLS</h2>
+            <div class="category-wrapper">
+
+                <!-- Language  -->
+                <div class="skill-category">
+                    <h3 class="title-cate"> Language </h3>
+                    <div class="body-cate">
+                        <div class="skill-wrapper">
+                            <div class="skill-img-wrapper">
+                                <img class="skill-img" src="assets/img/python-5.svg">
+                            </div>
+                            <h4 class="skill-name">
+                                Python
+                            </h4>
+                        </div>
+                        <div class="skill-wrapper">
+                            <div class="skill-img-wrapper">
+                                <img class="skill-img" src="assets/img/java-4.svg">
+                            </div>
+                            <h4 class="skill-name">
+                                Java
+                            </h4>
+                        </div>
+                        <div class="skill-wrapper">
+                            <div class="skill-img-wrapper">
+                                <img class="skill-img" src="assets/img/c-1.svg">
+                            </div>
+                            <h4 class="skill-name">
+                                C Language
+                            </h4>
+                        </div>
+                        <div class="skill-wrapper">
+                            <div class="skill-img-wrapper">
+                                <img class="skill-img" src="assets/img/javascript-1.svg">
+                            </div>
+                            <h4 class="skill-name">
+                                JavaScript
+                            </h4>
+                        </div>
+                        <div class="skill-wrapper">
+                            <div class="skill-img-wrapper">
+                                <img class="skill-img" src="assets/img/ocaml.svg">
+                            </div>
+                            <h4 class="skill-name">
+                                Ocaml
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="title-cate"> Web Development </h3>
+                    <div class="body-cate">
+                        <div class="skill-wrapper">
+                            <div class="skill-img-wrapper">
+                                <img class="skill-img" src="assets/img/flask.svg">
+                            </div>
+                            <h4 class="skill-name">
+                                Flask
+                            </h4>
+                        </div>
+                        <div class="skill-wrapper">
+                            <div class="skill-img-wrapper">
+                                <img class="skill-img" src="assets/img/django.svg">
+                            </div>
+                            <h4 class="skill-name">
+                                Django
+                            </h4>
+                        </div>
+                        <div class="skill-wrapper">
+                            <div class="skill-img-wrapper">
+                                <img class="skill-img" src="assets/img/html-1.svg">
+                            </div>
+                            <h4 class="skill-name">
+                                HTML
+                            </h4>
+                        </div>
+                        <div class="skill-wrapper">
+                            <div class="skill-img-wrapper">
+                                <img class="skill-img" src="assets/img/css-3.svg">
+                            </div>
+                            <h4 class="skill-name">
+                                CSS
+                            </h4>
+                        </div>
+                        <div class="skill-wrapper">
+                            <div class="skill-img-wrapper">
+                                <img class="skill-img" src="assets/img/angular-icon-1.svg">
+                            </div>
+                            <h4 class="skill-name">
+                                Angular
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="title-cate"> Dev Tools </h3>
+                    <div class="body-cate">
+                        <div class="skill-wrapper">
+                            <div class="skill-img-wrapper">
+                                <img class="skill-img" src="assets/img/git.svg">
+                            </div>
+                            <h4 class="skill-name">
+                                Git
+                            </h4>
+                        </div>
+                        <div class="skill-wrapper">
+                            <div class="skill-img-wrapper">
+                                <img class="skill-img" src="assets/img/visual-studio-code-1.svg">
+                            </div>
+                            <h4 class="skill-name">
+                                VScode
+                            </h4>
+                        </div>
+                        <div class="skill-wrapper">
+                            <div class="skill-img-wrapper">
+                                <img class="skill-img" src="assets/img/pycharm.svg">
+                            </div>
+                            <h4 class="skill-name">
+                               Pycharm
+                            </h4>
+                        </div>
+                        <div class="skill-wrapper">
+                            <div class="skill-img-wrapper">
+                                <img class="skill-img" src="assets/img/intellij-idea-1.svg">
+                            </div>
+                            <h4 class="skill-name">
+                                IntelliJ
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="title-contact">CONTACT</h2>
+            <div class="contact-wrapper">
+                <div class="contact-left">
+                    <div class="photo-wrapper">
+                        <img class="photo" src="assets/img/favicon.png">
+                    </div>
+                    <div class="info">
+                        <div class="info-single">
+                            <i class="icon ri-user-line"></i>
+                            <div class="info-content">
+                                <h5 class="info-key">Name</h5>
+                                <h5 class="info-val">Hongqin Chen</h5>
+                            </div>
+                        </div>
+                        <div class="info-single">
+                            <i class="icon ri-home-8-line"></i>
+                            <div class="info-content">
+                                <h5 class="info-key">Location</h5>
+                                <h5 class="info-val">Boston, MA</h5>
+                            </div>
+                        </div>
+                        <div class="info-single">
+                            <i class="icon ri-mail-line"></i>
+                            <div class="info-content">
+                                <h5 class="info-key">Email</h5>
+                                <h5 class="info-val">hongqin811@gmail.com</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <div class="right-upper">
+                        <div class="contact-link">
+                            <a href="https://github.com/hongqin811?tab=repositories" class="info-link">
+                                <i class="ri-github-fill"></i>
+                                <h5 class="info-name">GitHub</h5>
+                            </a>
+                        </div>
+                        <div class="contact-link">
+                            <a href="https://www.linkedin.com/in/hongqin-chen-593a50202/" class="info-link">
+                                <i class="ri-linkedin-box-fill"></i>
+                                <h5 class="info-name">LinkedIn</h5>    
+                            </a>
+                        </div>
+                        <div class="contact-link">
+                            <a href="https://github.com/hongqin811/Personal_Website/blob/main/my_resume.pdf" class="info-link">
+                                <i class="ri-contacts-book-2-line"></i>
+                                <h5 class="info-name">Resume</h5>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="right-lower">
+                        <a href="#contact" class="like-button" onclick="likeAlert()">
+                            <i class="ri-thumb-up-line"></i> 
+                            <h5>Like My Website</h5>
+                        </a>
+                    </div>     
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="footer" class="footer">
+            <h1 class="footer-hongqin">Hongqin</h1>
+            <h5 class="footer-text">
+                Copyright @ 2023 Hongqin Chen. All rights reserved
+            </h5>
+        </section>
+
+
+    <!--================================= BODY BUTTOM =============================================-->
+
+
+        <!--------------------------- MAIN JS ------------------------------->
+        <script src="assets/js/main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+        <!--------------------------- Swiper JS ------------------------------->
+        <script>
+            const swiper = new Swiper('.swiper', {
+                // Optional parameters
+                loop: true,
+              
+                // If we need pagination
+                pagination: {
+                  el: '.swiper-pagination',
+                },
+              
+                // Navigation arrows
+                navigation: {
+                  nextEl: '.swiper-button-next',
+                  prevEl: '.swiper-button-prev',
+                },
+
+                breakpoints: {
+                    640: {
+                      slidesPerView: 1,
+                      spaceBetween: 20,
+                    },
+                    768: {
+                      slidesPerView: 2,
+                      spaceBetween: 40,
+                    },
+                    1024: {
+                      slidesPerView: 3,
+                      spaceBetween: 50,
+                    },
+                  }
+              });
+
+        </script>
+
+        <!--------------------------- JQury JS: exp-button effect ------------------------------->
+        <script
+            src="https://code.jquery.com/jquery-3.6.3.js"
+            integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+            crossorigin="anonymous">
+        </script>
+        <script type="text/javascript">
+            $(document).on('click', '.exp-button', function(){
+                $(this).addClass('exp-button-click').siblings().removeClass('exp-button-click');
+            })
+        </script>
+        
+    </body>
+</html>
+
+<!--->
